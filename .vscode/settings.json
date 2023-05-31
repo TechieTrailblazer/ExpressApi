@@ -1,0 +1,11 @@
+{
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.insertSpaces": false,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.fontLigatures": false
+}
