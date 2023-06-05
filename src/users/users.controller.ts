@@ -15,7 +15,7 @@ import { IUsersService } from './users.service.interface';
 import { AuthGuard } from '../common/auth.guard';
 
 @injectable()
-export class UsersController extends BaseController implements IUsersController {
+export class UserController extends BaseController implements IUsersController {
 	constructor(
 		@inject(TYPES.ILogger) private loggerService: ILogger,
 		@inject(TYPES.UserService) private userService: IUsersService,
